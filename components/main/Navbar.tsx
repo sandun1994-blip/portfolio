@@ -9,15 +9,15 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="#about-me"
-          className="h-auto w-auto flex flex-row items-center"
+          className="h-auto w-auto flex flex-row items-center mr-5 "
         >
 
           <Image
             src="/my_image.jpg"
             alt="logo"
-            width={30}
+            width={35}
             height={30}
-            className="cursor-pointer hover:animate-slowspin rounded-full"
+            className="cursor-pointer hover:animate-slowspin rounded-full  "
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
@@ -46,8 +46,8 @@ const Navbar = () => {
               src={social.src}
               alt={social.name}
               
-              width={24}
-              height={24}
+              width={30}
+              height={30}
               className="cursor-pointer "
 
             />
